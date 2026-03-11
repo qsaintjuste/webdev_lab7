@@ -48,3 +48,13 @@ h1 {
 #planets tbody tr:hover {
     background-color: #f1f5f9;
 }
+
+/* Planet Images */
+.planet-images img {
+    width: 70px;
+    height: auto;
+}
+
+.planet-images td {
+    background-color: #ffffff;
+}
