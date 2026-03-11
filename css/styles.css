@@ -1,0 +1,39 @@
+/* General Page Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 40px;
+}
+
+/* Main Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Table Styling */
+#planets {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+/* Table Borders */
+#planets th,
+#planets td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Header Row */
+#planets thead {
+    background-color: #333;
+    color: white;
+}
+
+/* First Column (Data labels) */
+#planets td:first-child {
+    font-weight: bold;
+    text-align: left;
+}
